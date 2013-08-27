@@ -1,0 +1,12 @@
+Supervised Classification
+Known: P(X | skin), P(X | non-skin)
+
+P(skin | X) <> P(non-skin | X)
+
+Bayes rule:
+
+              P(B | A)P(A)
+   P(A | B) = ------------
+                  P(B)
+
+P(X | skin)P(skin) <> P(X | non-skin)P(non-skin)
